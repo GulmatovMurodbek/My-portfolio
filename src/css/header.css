@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: white;
+}
+
+.logo-text {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+
+.logo-highlight {
+    color: #7d2ae8;
+}
+
+.nav-links a {
+    position: relative;
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #7d2ae8;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.nav-links a:hover {
+    color: #7d2ae8;
+}
+
+.nav-links a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.button-projects {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.button-projects:hover {
+    color: #7d2ae8;
+    background: transparent;
+}
+
+@media (max-width: 1024px) {
+    .header-container {
+        padding: 40px 4%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        padding: 30px 3%;
+    }
+
+    .logo-text {
+        font-size: 29px;
+    }
+
+    .nav-links {
+        margin-left: 0;
+    }
+
+    .nav-links a {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container {
+        padding: 20px 15px;
+    }
+
+    .logo-text {
+        font-size: 19px;
+    }
+
+    .button-projects {
+        display: none;
+    }
+
+    .nav-links a {
+        margin-left: 7px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 390px) {
+    .logo-text {
+        font-size: 17px;
+    }
+
+    .nav-links a {
+        margin-left: 3px;
+        font-size: 13px;
+    }
+}

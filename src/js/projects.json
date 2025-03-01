@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Our first teamwork project",
+        "url": "https://teamwork-our-group.vercel.app",
+        "img": "src/images/surat1.png",
+        "github": "https://github.com/GulmatovMurodbek/TeamworkOurGroup"
+    },
+    {
+        "name": "Todo list with redux-toolkit",
+        "url": "https://todo-list-with-state-manager-redux-toolkit-brts.vercel.app/",
+        "img": "src/images/surat2.png",
+        "github": "https://github.com/GulmatovMurodbek/Todo-list-with-state-manager-Redux-toolkit"
+    },
+    {
+        "name": "Project with i18Next and darkmode",
+        "url": "https://project-with-translate-and-darkmode.vercel.app/",
+        "img": "src/images/surat3.png",
+        "github": "https://github.com/GulmatovMurodbek/Project-with-translate-and-darkmode-"
+    },
+    {
+        "name": "SPA project with swiper.js",
+        "url": "https://my-project-about-hotels.vercel.app",
+        "img": "src/images/surat4.png",
+        "github": "https://github.com/GulmatovMurodbek/My-Project-about-Hotels"
+    }
+]

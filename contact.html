@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./src/css/contact.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="icon" href="./favicon.ico">
+</head>
+
+<body>
+    <header class="header-container">
+        <h2 class="logo-text" onclick="window.location.href='./'"><span class="logo-highlight">Murod</span>bek</h2>
+        <nav class="nav-links">
+            <a href="./">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="portfolio.html" class="button-projects">My Projects</a>
+    </header>    
+    <div class="contact">
+        <h2 class="contact__title">Contact Me</h2>
+        <p class="contact__description">If you have any questions or would like to get in touch with me, feel free to
+            contact me using the
+            information below or by filling out the contact form:</p>
+        <div class="contact__form-wrapper">
+            <form class="contact__form">
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                <button type="button" id="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="contact__info">
+            <div class="contact__info-item">
+                <a href="mailto:gulmatovmurodbek5@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <p><a href="mailto:gulmatovmurodbek5@gmail.com"><span>Email: <br></span>gulmatovmurodbek5@gmail.com</a></p>
+            </div>
+            <div class="contact__info-item">
+                <a href="tel:+992881111484"><i class="fa-solid fa-phone"></i></a>
+                <p><a href="tel:+992881111484"><span>Phone: <br></span> +992881111484</a></p>
+            </div>
+            <div class="contact__info-item">
+                <a href="https://github.com/GulmatovMurodbek"><i class="fa-brands fa-github"></i></a>
+                <p><a href="https://github.com/GulmatovMurodbek"><span>GitHub<br></span>Murodbek</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
